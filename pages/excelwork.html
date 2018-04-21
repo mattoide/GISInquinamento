@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- FontAwesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/exelstyle.css">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+
+    <!-- Titolo -->
+    <title>GIS</title>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="../index.html">
+
+            <span class="fas fa-home"></span> Home </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/intro.html">
+                        <span class="fas fa-flag-checkered"></span> Introduzione </a>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/airmonitoring.html">
+                            <span class="fas fa-microchip"></span> Monitoraggio aria </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/parameters.html">
+                            <span class="fas fa-heartbeat"></span> Parametri ed effetti </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/graphics.html">
+                            <span class="fas fa-chart-line"></span> Grafici </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <span class="fas fa-cogs"></span> Sviluppo progetto
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../pages/excelwork.html">
+                                <span class="fas fa-keyboard"></span> Microsoft Excel </a>
+                            <a class="dropdown-item" href="../pages/qgiswork.html">
+                                <span class="fas fa-map"></span> QGis </a>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col">
+
+
+
+                <h1>Microsft Excel</h1>
+                <p>
+                    Nella prima fase abbiamo recuperato e organizzato le informazioni in tabelle create con il software Microsoft Excel. I dati
+                    sono quelli rilevati ed analizzati dalle stazioni di rilevamento dell’Emilia Romagna, recuperati dal
+                    sito dell’Arpae. I file usati relativi ai valori dei parametri analizzati dalle varie stazioni, sono
+                    stati scaricati dalla cartella condivisa su Google Drive raggiungibile a questo indirizzo:
+                    <span>
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-owdnU_9_lpei1wbTBpS3RyTW8?usp=sharing">https://drive.google.com/drive/folders/0B-owdnU_9_lpei1wbTBpS3RyTW8?usp=sharing</a>
+                    </span>;
+                    <br> le caratteristiche riguardanti le singole stazioni sono state selezionate dalla tabella raggiungibile
+                    da:
+                    <span>
+                        <a target="_blank" href="https://dati.arpae.it/dataset/qualita-dell-aria-rete-di-monitoraggio/resource/21a9464d-c91a-4f17-b5c7-f3ee7560ff7e">QUI</a>
+                    </span>;
+                    <br> mentre, le caratteristiche dei parametri da:
+                    <span>
+                        <a target="_blank" href="https://dati.arpae.it/dataset/qualita-dell-aria-rete-di-monitoraggio/resource/65faaf03-f2fc-4f8a-b9cb-c771907644ce">QUI</a>
+                    </span>
+                    . I file sono stati scaricati ed importati in Microsoft Excel in formato csv. Da ogni singola tabella sono state compiute
+                        operazioni di filtraggio al fine di recuperare solo i dati necessari al nostro lavoro. Nelle tabelle
+                        sono riportati i seguenti dati: Stazione; Comune; Codice stazione; Id parametro; Valore minimo medio;
+                        Valore massimo medio; Valore medio; Coordinata x; Coordinata y.
+                        <br>
+                        <br>
+                    
+
+                        <img  style="width:110%; height:150%" src="../img/excelwork.png">
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
