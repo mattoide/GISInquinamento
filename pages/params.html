@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- FontAwesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/paramstyle.css">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+
+    <!-- Titolo -->
+    <title>GIS</title>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="../index.html">
+
+            <span class="fas fa-home"></span> Home </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/intro.html">
+                        <span class="fas fa-flag-checkered"></span> Introduzione </a>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/airmonitoring.html">
+                            <span class="fas fa-microchip"></span> Monitoraggio aria </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/params.html">
+                            <span class="fas fa-heartbeat"></span> Parametri ed effetti </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/graphics.html">
+                            <span class="fas fa-chart-line"></span> Grafici </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <span class="fas fa-cogs"></span> Sviluppo progetto
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../pages/excelwork.html">
+                                <span class="fas fa-keyboard"></span> Microsoft Excel </a>
+                            <a class="dropdown-item" href="../pages/qgiswork.html">
+                                <span class="fas fa-map"></span> QGis </a>
+                        </div>
+                    </li>
+
+
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+
+                <a class="as" href="" data-toggle="modal" data-target="#pmModal">
+                    <h4 style="text-decoration: underline">MATERIA PARTICOLATA (PM) –ID PM10: 5; ID PM 2.5: </h4>
+
+                    <h6 style="font-weight: bold">
+                        Esempio analizzatore PM10/PM2.5:
+                    </h6>
+                    <img class="unimol" src="../img/pmanalyzer.png">
+                </a>
+
+
+                <!-- -->
+                <div id="pmModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <p>
+                                    <h4 style="text-decoration: underline">MATERIA PARTICOLATA (PM) –ID PM10: 5; ID PM 2.5: </h4>
+                                    <p> La sigla PM (Particulate Matter o Materia Particolata, cioè in piccole particelle) identifica
+                                        una delle numerose frazioni in cui viene classificato il particolato, quel materiale
+                                        presente nell'atmosfera in forma di particelle microscopiche. È costituito da polvere, fumo,
+                                        micro gocce di sostanze liquide denominato in gergo tecnico aerosol: esso, infatti,
+                                        è un insieme di particolati, ovvero particelle solide e liquide disperse nell'aria
+                                        con dimensioni relativamente piccole. Queste particelle presenti nell'atmosfera sono
+                                        indicate con molti nomi comuni: polvere e fuliggine per quelle solide, caligine e nebbia per
+                                        quelle liquide.</p>
+
+
+                                    <p style="font-weight: bold"> PM10 / PM2,5:</p>
+                                    <p>è una classificazione numerica data alle polveri sottili in base alla loro grandezza.
+                                        Più il numero è minore e più sottili sono le polveri e dunque più pericolose per
+                                        la salute della specie umana ed animale. Mentre il PM 10 raggiunge solo i bronchi,
+                                        la trachea e vie respiratorie superiori, il PM 2,5 è in grado di penetrare negli
+                                        alveoli polmonari con eventuale diffusione nel sangue.  Secondo alcune ricerche il
+                                        particolato riduce l'aspettativa di vita di 1-2 anni e in particolare di 0,77 anni
+                                        ogni 10 µg/m³ di PM2,5; il PM10 aumenta l'asma tutto l'anno e le bronchiti in inverno;
+                                        il PM2,5 è un probabile fattore di rischio per l'insorgenza di tumori.
+                                    </p>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--- -->
+
+                <hr class="line">
+
+                <a class="as" href="" data-toggle="modal" data-target="#o3Modal">
+                    <h4 style="text-decoration: underline">OZONO (O3) – ID: 7 </h4>
+                    <img class="chimica" src="../img/chimica/o3.png">
+
+                </a>
+
+                <div id="o3Modal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <h4 style="text-decoration: underline">OZONO (O3) – ID: 7 </h4>
+
+                                <p> È un gas instabile ed allo stato liquido è esplosivo.  È, tuttavia, un gas essenziale alla
+                                    vita sulla Terra per via della sua capacità di assorbire la luce ultravioletta; lo strato
+                                    di ozono presente nella stratosfera protegge la Terra dall'azione nociva dei raggi ultravioletti
+                                    UV-C provenienti dal Sole. L’ozono può irritare il sistema respiratorio, ridurre la funzione
+                                    polmonare, aggravare l´asma e altre patologie respiratorie, provocare l´infiammazione
+                                    del sottile strato di cellule che riveste le vie respiratorie.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="line">
+
+                <a class="as" href="" data-toggle="modal" data-target="#noxModal">
+                    <h4 style="text-decoration: underline">NOx - ID NO2: 8; ID NOX: 9 </h4>
+                    <img class="chimica" src="../img/chimica/no2.png">
+                </a>
+
+                <div id="noxModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <h4 style="text-decoration: underline">NOx - ID NO2: 8; ID NOX: 9 </h4>
+                                <p> I NOx vengono prodotti in natura soprattutto dai fulmini e dalle eruzioni vulcaniche. Nell'uomo
+                                    e negli organismi animali più in generale sono generati dalle cellule del sistema immunitario
+                                    per uccidere i batteri patogeni e da altre cellule per funzioni diverse. Il monossido
+                                    di azoto, in particolare, ha funzioni vasodilatatorie. Una delle principali fonti antropiche
+                                    sono i motori a combustione interna, gli ossidi di azoto si formano in virtù della temperatura che
+                                    viene raggiunta durante la combustione del carburante. Altra fonte di produzione sono
+                                    i fornelli del gas delle cucine e le caldaie di riscaldamento per acqua e/o ambiente.
+                                    Gli ossidi di azoto, in particolar modo il biossido di azoto, sono sostanze inquinanti dell'atmosfera e
+                                    aggravano le condizioni dei malati di asma, bambini e chi soffre di malattie respiratorie
+                                    croniche o di malattie cardiache, in ogni caso superata una certa soglia insorgono problemi
+                                    nella respirazione polmonare ed edemi polmonari, mentre già con poche quantità si ha
+                                    irritazione delle mucose e degli occhi, mentre la presenza nell'aria è avvertibile con
+                                    un odore pungente. Tra gli effetti a lungo termine si possono annoverare le alterazioni
+                                    polmonari a livello tessutale e cellulare, aumento della suscettibilità alle infezioni
+                                    polmonari sia di tipo batteriche che virali, mentre si sospettano possibili danni sull'apparato
+                                    cardio-vascolare quali l'induzione di ischemiche del miocardio, scompenso cardiaco e
+                                    aritmie cardiache. Alcuni di essi in presenza di radiazione solare possono reagire con
+                                    l'ossigeno formando ozono e altri composti del cosiddetto smog fotochimico se in presenza
+                                    anche di idrocarburi incombusti (HC).
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="line">
+
+                <a class="as" href="" data-toggle="modal" data-target="#coModal">
+                    <h4 style="text-decoration: underline">MONOSSIDO DI CARBONIO (CO) – ID: 10 </h4>
+                    <img class="chimicamid" src="../img/chimica/Monossidodicarbonio.png">
+                </a>
+
+                <div id="coModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <h4 style="text-decoration: underline">MONOSSIDO DI CARBONIO (CO) – ID: 10 </h4>
+                                <p> Il monossido di carbonio (o ossido di carbonio o ossido carbonioso) è un gas velenoso particolarmente
+                                    insidioso in quanto inodore e insapore. Il monossido di carbonio viene prodotto da reazioni di combustione in
+                                    difetto di aria (cioè quando l'ossigeno presente nell'aria non è sufficiente a convertire
+                                    tutto il carbonio in anidride carbonica), per esempio negli incendi di foreste e boschi,
+                                    dove il prodotto principale della combustione rimane comunque l'anidride carbonica. Il
+                                    monossido di carbonio è un'emotossina, perché legandosi saldamente allo ione del ferro nell'emoglobina del
+                                    sangue forma un complesso (chiamato carbossiemoglobina) 300 volte più stabile di quello
+                                    formato dall'ossigeno (chiamato ossiemoglobina), ostacolando così il trasporto di ossigeno
+                                    nel sangue.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <hr class="line">
+
+
+                <a class="as" href="" data-toggle="modal" data-target="#benzModal">
+                    <h4 style="text-decoration: underline">BENZENE (C6H6) – ID: 20 </h4>
+                    <img class="chimicabig" src="../img/chimica/Benzene.png">
+                </a>
+
+                <div id="benzModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+
+                                <h4 style="text-decoration: underline">BENZENE (C6H6) – ID: 20 </h4>
+                                <p> Il benzene è un composto chimico che a temperatura ambiente e pressione atmosferica si presenta
+                                    sotto forma di liquido volatile incolore altamente infiammabile, dall'odore caratteristico.
+                                    L'inalazione di un tasso molto elevato di benzene può portare al decesso; un'esposizione
+                                    da cinque a dieci minuti ad un tasso di benzene nell'aria al 2% è sufficiente a condurre
+                                    un uomo alla morte. Dei tassi più bassi possono generare sonnolenza, vertigini, tachicardia, mal
+                                    di testa, tremori, stato confusionale o perdita di coscienza. La dose letale per ingestione è
+                                    di circa 50÷500 mg/kg (milligrammo di sostanza ingerita rispetto al peso dell'individuo
+                                    espresso in chilogrammi). L'ingestione di cibi o bevande contenenti tassi elevati di
+                                    benzene possono scatenare vomito, irritazione gastrica, vertigini, sonnolenza, convulsioni,
+                                    tachicardia e, nei casi più gravi, provocare la morte. Il principale effetto di un'esposizione
+                                    cronica al benzene è il danneggiamento dei tessuti ossei e la diminuzione delle cellule del midollo
+                                    osseo, che può causare una diminuzione del tasso di globuli rossi nel sangue e un'anemia
+                                    aplastica o una leucemia. Può anche dare origine a coaguli, difficoltà di coagulazione
+                                    del sangue ed indebolimenti del sistema immunitario.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <hr class="line">
+
+
+                <a class="as" href="" data-toggle="modal" data-target="#toluModal">
+                        <h4 style="text-decoration: underline">TOLUENE (C6H5-CH3) – ID: 21 </h4>
+                <img class="chimicabig" src="../img/chimica/toluene.png">
+                </a>
+
+                <div id="toluModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog modal-lg">
+    
+                            <!-- Modal content-->
+                            <div class="modal-content">
+    
+                                <div class="modal-body">
+    
+                                        <h4 style="text-decoration: underline">TOLUENE (C6H5-CH3) – ID: 21 </h4>
+                                        <p> Il toluene (noto anche come toluolo o metilbenzene) è un liquido volatile ed incolore dall'odore caratteristico.
+                                            Il toluene è un idrocarburo aromatico; viene usato come solvente in sostituzione del più tossico benzene,
+                                            cui somiglia sotto molti aspetti. È anche contenuto nella benzina. Il toluene è classificato come sostanza
+                                            nociva e facilmente infiammabile; è, tuttavia, meno tossico del benzene e non ha effetti mutageni. Il
+                                            toluene danneggia i nervi, i reni e probabilmente anche il fegato. L'inalazione dei suoi vapori produce
+                                            sintomi di stanchezza, nausea, confusione, disturbi alla coordinazione dei movimenti e può portare alla
+                                            perdita di coscienza. Un contatto regolare può produrre un'intossicazione dagli effetti euforizzanti
+                                            e insufficienza midollare con conseguente anemia aplastica. I vapori di toluene hanno un effetto narcotico
+                                            a carico degli organi respiratori e sono irritanti per gli occhi; sono anche possibili, in alcune persone,
+                                            manifestazioni allergiche.
+                                        </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

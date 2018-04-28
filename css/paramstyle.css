@@ -4,7 +4,7 @@ body{
 .col {
 
     margin-top: 4%;
-    text-align: left;
+    text-align: center;
 }
 
 hr.line{
@@ -14,3 +14,31 @@ hr.line{
     margin-bottom: 5%;
    
 }
+
+.chimica {
+    width: 200px;
+    height: 150px;
+}
+
+.chimicamid {
+    width: 100px;
+    height: 100px;
+}
+
+.chimicabig {
+    width: 200px;
+    height: 200px;
+}
+
+.modal-content{
+    background-color: #e6e6e6;
+}
+
+.as{
+    
+    color: #212529;
+}
+.as:hover{
+color: #212529;
+
+ }
