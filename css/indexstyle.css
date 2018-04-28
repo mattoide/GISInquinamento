@@ -1,5 +1,17 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+
 body{
-    background: #e6e6e6;
+    background-image: url("../img/bolognablur.jpg");
+    height: 100%; 
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /*   background: #e6e6e6;*/
+
 }
 .col {
 
@@ -15,15 +27,20 @@ body{
 
 .emilia {
 
-    width: 33;
-    height: 33%;
+    width: 43;
+    height: 43%;
     margin-bottom: 2%;
 }
 .btn {
     margin-top: 2%;
+    color: white;
 }
 .unimol{
-    width: 50px;
+    width: 70px;
 
-    height: 50px;
+    height: 70px;
+}
+
+.container {
+    color: #252526;
 }
