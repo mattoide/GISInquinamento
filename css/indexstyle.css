@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background-image: url("../img/bolognablur.jpg");
+    background-image: url("../img/bol.jpg");
     height: 100%; 
     margin: 0;
     background-position: center;
@@ -42,5 +42,7 @@ body{
 }
 
 .container {
-    color: #252526;
+   /* color: #252526;*/
+
+   color: whitesmoke;
 }
