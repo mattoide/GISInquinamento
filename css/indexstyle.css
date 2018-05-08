@@ -4,13 +4,13 @@ html{
 }
 
 body{
+    background: black;
     background-image: url("../img/bol.jpg");
     height: 100%; 
     margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     /*   background: #e6e6e6;*/
 
 }
 .col {
