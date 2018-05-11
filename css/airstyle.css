@@ -10,3 +10,13 @@ body{
 .modal-content{
     text-align: center;
 }
+
+.col-sm-12 {
+    text-align: center;
+    margin-top: 10vh;
+    }
+    
+    .row{
+        width: 100%;
+        margin: 0%;
+    }

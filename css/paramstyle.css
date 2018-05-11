@@ -16,18 +16,18 @@ hr.line{
 }
 
 .chimica {
-    width: 200px;
-    height: 150px;
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .chimicamid {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .chimicabig {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .modal-content{
@@ -42,3 +42,15 @@ hr.line{
 color: #212529;
 
  }
+
+ .col-sm-12 {
+    text-align: center;
+    margin-top: 10vh;
+
+    }
+    
+    .row{
+        width: 100%;
+        margin: 0%;
+
+    }

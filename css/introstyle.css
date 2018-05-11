@@ -6,3 +6,12 @@ body{
     margin-top: 2%;
     text-align: center;
 }
+
+.col-sm-12 {
+    text-align: center;
+    }
+    
+    .row{
+        width: 100%;
+        margin: 0%;
+    }
