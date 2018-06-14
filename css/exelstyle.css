@@ -4,6 +4,7 @@ body{
 .col-sm-12 {
     text-align: center;
     margin-top: 10vh;
+    font-size: 25px;
 
 }
 
@@ -16,3 +17,4 @@ body{
 .img-fluid{
     margin-bottom: 10px;
 }
+
