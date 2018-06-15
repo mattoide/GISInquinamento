@@ -131,46 +131,54 @@
                         <div class="modal-dialog modal-lg">
 
                             <!-- Modal content-->
-                            <div class="modal-content">
+                        <div class="modal-content">
 
-                                <div class="modal-body">
-                                    <h3>Curiosità:</h3>
-                                    <p> Le mappe delle concentrazioni di inquinanti e dell´Indice di
-                                        <i>Qualità dell´Aria in Emilia-Romagna</i>
-                                        sono prodotte da
-                                        <b>modelli matematici e statistici</b>, che utilizzano come dati di ingresso le emissioni
-                                        inquinanti presenti sul territorio (traffico, riscaldamento, industrie, ecc), la
-                                        meteorologia e le misure delle stazioni di qualità dell´aria. I modelli riproducono
-                                        i principali fenomeni che riguardano gli inquinanti atmosferici: emissione, diffusione,
-                                        trasporto, reazioni chimiche, deposizioni.
-                                        <br>
-                                        <br>Il modello europeo si chiama
-                                        <b>Prev´Air</b> ed è gestito dall'Istituto francese dell'ambiente industriale e dei
-                                        rischi,
-                                        <b>INERIS</b>. Ogni giorno Prev´Air simula la qualità dell'aria di tutta Europa, con
-                                        un dettaglio di 50km.
-                                        <br>Le valutazioni e le previsioni di Prev´Air sono immediatamente trasmesse ad
-                                        <b>ArpaER</b> (Arpa Emilia-Romagna), dove il modello
-                                        <b>NINFA</b>(modello chimico e di trasporto) le elabora e introduce informazioni di
-                                        maggiore dettaglio attraverso algoritmi geo statistici implementati nel modulo
-                                        <b>PESCO</b>, simulando così la qualità dell'aria del Nord Italia, con una risoluzione
-                                        di 5km.
-                                        <br>PESCO (Postprocessing and Evaluation with Statistical techniques of the Chimere Output)
-                                        è un sistema di valutazione della qualità dell’aria in Emilia-Romagna che permette
-                                        di ricostruire la mappa regionale di concentrazione al suolo di ozono, PM10, PM2.5
-                                        e biossido di azoto eseguendo un post processing statistico dell’output del modello
-                                        numerico NINFA con i dati osservati dalla rete 4 di monitoraggio regionale.
-                                    </p>
+                            <div class="modal-body">
+                                <h3>Curiosità:</h3>
+                                Le mappe delle concentrazioni di inquinanti e dell´Indice di
+                                    <i>Qualità dell´Aria in Emilia-Romagna</i>
+                                    sono prodotte da <b>modelli matematici e statistici</b>, che utilizzano come dati di ingresso le emissioni inquinanti presenti sul territorio (traffico, riscaldamento, industrie, ecc), la meteorologia
+                                    e le misure delle stazioni di qualità dell´aria. I modelli riproducono i principali fenomeni
+                                    che riguardano gli inquinanti atmosferici: emissione, diffusione, trasporto, reazioni
+                                    chimiche, deposizioni.
+                                    <br>
+                                    <br>Il modello europeo si chiama <b>Prev´Air</b> ed è gestito dall'Istituto francese dell'ambiente industriale e dei rischi,
+                                    <b>INERIS</b>. Ogni giorno Prev´Air simula la qualità dell'aria di tutta Europa, con un dettaglio di 50km.
+                                    <br>Le valutazioni e le previsioni di Prev´Air sono immediatamente trasmesse ad
+                                    <b>ArpaER</b> (Arpa Emilia-Romagna), che a sua volta integra le informazioni provenienti dalla rete di
+                                    monitoraggio con le simulazioni del modello chimico e di trasporto <b>NINFA</b>, attraverso algoritmi
+                                    geostatistici implementati nel modulo <b>PESCO</b>.
+                                    <br>
+                                    <br>
+                                   <img src="../img/schema.png">
+                                    <br>
+                                    <br>
+                                <b>NINFA</b> (Network dell’Italia del Nord per previsioni di smog Fotochimico e Aerosol) si basa sulla
+                                versione regionale del modello di trasporto chimico <b>Chimere</b> abbinata al
+                                modello meteorologico <b>COSMO</b>. Il sistema, implementato e gestito da Arpae- SIMC, produce ogni giorno mappe di concentrazione di PM10, PM2.5, ozono ed NO2, per il giorno precedente (analisi)
+                                e le successive 72 ore (previsione).
+                                <br><b>Chimere</b> è un modello euleriano di trasporto chimico, progettato sia per produrre previsioni quotidiane
+                                di ozono, polveri ed altri inquinanti, sia per realizzare simulazioni di lungo termine per l’analisi
+                                di scenari emissivi. Riproduce i principali fenomeni che riguardano gli
+                                inquinanti atmosferici: emissione, diffusione, trasporto, reazioni chimiche, deposizioni. Le reazioni
+                                in fase gassosa sono descritte utulizzando lo schema chimico <b>MELCHIOR</b>, mentre
+                                gli aerosol sono trattati con un modulo appositamente sviluppato.
+                                <br>Nel sistema NINFA, il dominio di integrazione di Chimere copre l’intero <i>Nord Italia</i>: ciò
+                                consente al modello di tenere conto delle circolazioni a scala locale nella Pianura Padana, che influenzanopesantemente il trasporto e la dispersione di inquinanti.
 
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
-                                </div>
+
+                                </p>
+
                             </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                            </div>
+
+
                         </div>
+
                     </div>
                 </div>
-            </div>
 
 
             <!-- <h3>Curiosità:</h3>
